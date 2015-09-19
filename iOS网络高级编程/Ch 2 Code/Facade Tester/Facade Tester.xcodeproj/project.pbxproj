@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05130B1156C8445000AECC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A05130B0156C8445000AECC3 /* Icon.png */; };
+		A05130B3156C844A000AECC3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05130B2156C844A000AECC3 /* Icon@2x.png */; };
+		A06400AA156B080100A63ADF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06400A9156B080100A63ADF /* UIKit.framework */; };
+		A06400AC156B080100A63ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06400AB156B080100A63ADF /* Foundation.framework */; };
+		A06400AE156B080100A63ADF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06400AD156B080100A63ADF /* CoreGraphics.framework */; };
+		A06400B4156B080100A63ADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A06400B2156B080100A63ADF /* InfoPlist.strings */; };
+		A06400B6156B080100A63ADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06400B5156B080100A63ADF /* main.m */; };
+		A06400BA156B080100A63ADF /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06400B9156B080100A63ADF /* FTAppDelegate.m */; };
+		A06400BD156B080100A63ADF /* FTWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06400BC156B080100A63ADF /* FTWeatherViewController.m */; };
+		A06400C4156B080100A63ADF /* FTStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06400C3156B080100A63ADF /* FTStockViewController.m */; };
+		A06400E0156B0A2800A63ADF /* stock.png in Resources */ = {isa = PBXBuildFile; fileRef = A06400DC156B0A2800A63ADF /* stock.png */; };
+		A06400E1156B0A2800A63ADF /* stock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A06400DD156B0A2800A63ADF /* stock@2x.png */; };
+		A06400E2156B0A2800A63ADF /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = A06400DE156B0A2800A63ADF /* weather.png */; };
+		A06400E3156B0A2800A63ADF /* weather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A06400DF156B0A2800A63ADF /* weather@2x.png */; };
+		A0D21743156C8A1D004362A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D21742156C8A1D004362A4 /* Default.png */; };
+		A0D21746156C8A21004362A4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D21745156C8A21004362A4 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A05130B0156C8445000AECC3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		A05130B2156C844A000AECC3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		A06400A5156B080100A63ADF /* Facade Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facade Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06400A9156B080100A63ADF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A06400AB156B080100A63ADF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A06400AD156B080100A63ADF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A06400B1156B080100A63ADF /* Facade Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Facade Tester-Info.plist"; sourceTree = "<group>"; };
+		A06400B3156B080100A63ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A06400B5156B080100A63ADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A06400B7156B080100A63ADF /* Facade Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facade Tester-Prefix.pch"; sourceTree = "<group>"; };
+		A06400B8156B080100A63ADF /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		A06400B9156B080100A63ADF /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
+		A06400BB156B080100A63ADF /* FTWeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWeatherViewController.h; sourceTree = "<group>"; };
+		A06400BC156B080100A63ADF /* FTWeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWeatherViewController.m; sourceTree = "<group>"; };
+		A06400C2156B080100A63ADF /* FTStockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTStockViewController.h; sourceTree = "<group>"; };
+		A06400C3156B080100A63ADF /* FTStockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTStockViewController.m; sourceTree = "<group>"; };
+		A06400DC156B0A2800A63ADF /* stock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stock.png; sourceTree = "<group>"; };
+		A06400DD156B0A2800A63ADF /* stock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stock@2x.png"; sourceTree = "<group>"; };
+		A06400DE156B0A2800A63ADF /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+		A06400DF156B0A2800A63ADF /* weather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather@2x.png"; sourceTree = "<group>"; };
+		A0D21742156C8A1D004362A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		A0D21745156C8A21004362A4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06400A2156B080100A63ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06400AA156B080100A63ADF /* UIKit.framework in Frameworks */,
+				A06400AC156B080100A63ADF /* Foundation.framework in Frameworks */,
+				A06400AE156B080100A63ADF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05130AF156C8429000AECC3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A05130B0156C8445000AECC3 /* Icon.png */,
+				A05130B2156C844A000AECC3 /* Icon@2x.png */,
+				A0D21742156C8A1D004362A4 /* Default.png */,
+				A0D21745156C8A21004362A4 /* Default@2x.png */,
+				A06400DC156B0A2800A63ADF /* stock.png */,
+				A06400DD156B0A2800A63ADF /* stock@2x.png */,
+				A06400DE156B0A2800A63ADF /* weather.png */,
+				A06400DF156B0A2800A63ADF /* weather@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A064009A156B080100A63ADF = {
+			isa = PBXGroup;
+			children = (
+				A06400AF156B080100A63ADF /* Facade Tester */,
+				A06400A8156B080100A63ADF /* Frameworks */,
+				A06400A6156B080100A63ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A06400A6156B080100A63ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A06400A5156B080100A63ADF /* Facade Tester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06400A8156B080100A63ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A06400A9156B080100A63ADF /* UIKit.framework */,
+				A06400AB156B080100A63ADF /* Foundation.framework */,
+				A06400AD156B080100A63ADF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A06400AF156B080100A63ADF /* Facade Tester */ = {
+			isa = PBXGroup;
+			children = (
+				A06400B8156B080100A63ADF /* FTAppDelegate.h */,
+				A06400B9156B080100A63ADF /* FTAppDelegate.m */,
+				A06400BB156B080100A63ADF /* FTWeatherViewController.h */,
+				A06400BC156B080100A63ADF /* FTWeatherViewController.m */,
+				A06400C2156B080100A63ADF /* FTStockViewController.h */,
+				A06400C3156B080100A63ADF /* FTStockViewController.m */,
+				A05130AF156C8429000AECC3 /* Images */,
+				A06400B0156B080100A63ADF /* Supporting Files */,
+			);
+			path = "Facade Tester";
+			sourceTree = "<group>";
+		};
+		A06400B0156B080100A63ADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A06400B1156B080100A63ADF /* Facade Tester-Info.plist */,
+				A06400B2156B080100A63ADF /* InfoPlist.strings */,
+				A06400B5156B080100A63ADF /* main.m */,
+				A06400B7156B080100A63ADF /* Facade Tester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A06400A4156B080100A63ADF /* Facade Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06400D1156B080100A63ADF /* Build configuration list for PBXNativeTarget "Facade Tester" */;
+			buildPhases = (
+				A06400A1156B080100A63ADF /* Sources */,
+				A06400A2156B080100A63ADF /* Frameworks */,
+				A06400A3156B080100A63ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facade Tester";
+			productName = "Facade Tester";
+			productReference = A06400A5156B080100A63ADF /* Facade Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A064009C156B080100A63ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A064009F156B080100A63ADF /* Build configuration list for PBXProject "Facade Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A064009A156B080100A63ADF;
+			productRefGroup = A06400A6156B080100A63ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06400A4156B080100A63ADF /* Facade Tester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A06400A3156B080100A63ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06400B4156B080100A63ADF /* InfoPlist.strings in Resources */,
+				A06400E0156B0A2800A63ADF /* stock.png in Resources */,
+				A06400E1156B0A2800A63ADF /* stock@2x.png in Resources */,
+				A06400E2156B0A2800A63ADF /* weather.png in Resources */,
+				A06400E3156B0A2800A63ADF /* weather@2x.png in Resources */,
+				A05130B1156C8445000AECC3 /* Icon.png in Resources */,
+				A05130B3156C844A000AECC3 /* Icon@2x.png in Resources */,
+				A0D21743156C8A1D004362A4 /* Default.png in Resources */,
+				A0D21746156C8A21004362A4 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A06400A1156B080100A63ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06400B6156B080100A63ADF /* main.m in Sources */,
+				A06400BA156B080100A63ADF /* FTAppDelegate.m in Sources */,
+				A06400BD156B080100A63ADF /* FTWeatherViewController.m in Sources */,
+				A06400C4156B080100A63ADF /* FTStockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A06400B2156B080100A63ADF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A06400B3156B080100A63ADF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A06400CF156B080100A63ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A06400D0156B080100A63ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A06400D2156B080100A63ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facade Tester/Facade Tester-Prefix.pch";
+				INFOPLIST_FILE = "Facade Tester/Facade Tester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A06400D3156B080100A63ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Facade Tester/Facade Tester-Prefix.pch";
+				INFOPLIST_FILE = "Facade Tester/Facade Tester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A064009F156B080100A63ADF /* Build configuration list for PBXProject "Facade Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06400CF156B080100A63ADF /* Debug */,
+				A06400D0156B080100A63ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06400D1156B080100A63ADF /* Build configuration list for PBXNativeTarget "Facade Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06400D2156B080100A63ADF /* Debug */,
+				A06400D3156B080100A63ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A064009C156B080100A63ADF /* Project object */;
+}

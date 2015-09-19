@@ -1,0 +1,6 @@
+{
+    "services": {
+		"stockQuote": "http://example.com/api/stockQuote_v1.php",
+		"weather": "http://example.com/api/weather_v1.php"
+    }
+}

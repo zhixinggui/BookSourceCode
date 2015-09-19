@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "name": "stockQuote",
+            "url": "http://example.com/api/stockQuote_v1.php",
+            "version": 1
+        },
+        {
+            "name": "stockQuote",
+            "url": "http://example.com/api/stockQuote_v2.php",
+            "version": 2
+        },
+        {
+            "name": "weather",
+            "url": "http://example.com/api/weather_v1.php",
+            "version": 1
+        },
+        {
+            "name": "weather",
+            "url": "http://example.com/api/weather_v2.php",
+            "version": 2
+        }
+    ]
+}
