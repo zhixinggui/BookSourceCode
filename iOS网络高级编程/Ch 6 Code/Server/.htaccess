@@ -1,0 +1,10 @@
+SSLVerifyClient require
+SSLRequireSSL
+SSLVerifyDepth 1
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?method=$1 [QSA,NC,L]

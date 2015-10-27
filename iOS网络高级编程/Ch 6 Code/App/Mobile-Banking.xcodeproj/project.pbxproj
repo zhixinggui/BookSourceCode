@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6459ABC1568CE3D009566AB /* CertificateAuthenticateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6459ABB1568CE3D009566AB /* CertificateAuthenticateOperation.m */; };
+		F666F7FB1503E7820070B81F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F666F7FA1503E7820070B81F /* Security.framework */; };
+		F666F80215045A1A0070B81F /* GetAccountsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F666F80115045A1A0070B81F /* GetAccountsOperation.m */; };
+		F66A2598150EF4D40097CEBF /* cert.txt in Resources */ = {isa = PBXBuildFile; fileRef = F66A2597150EF4D40097CEBF /* cert.txt */; };
+		F68BB5511563444F007610BC /* NormalLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68BB5501563444F007610BC /* NormalLoginViewController.m */; };
+		F68BB55515634469007610BC /* RegisteredLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68BB55415634468007610BC /* RegisteredLoginViewController.m */; };
+		F693E18A14FDD0FF004DECBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F693E18914FDD0FF004DECBD /* UIKit.framework */; };
+		F693E18C14FDD0FF004DECBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F693E18B14FDD0FF004DECBD /* Foundation.framework */; };
+		F693E18E14FDD0FF004DECBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F693E18D14FDD0FF004DECBD /* CoreGraphics.framework */; };
+		F693E19414FDD0FF004DECBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F693E19214FDD0FF004DECBD /* InfoPlist.strings */; };
+		F693E19614FDD0FF004DECBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E19514FDD0FF004DECBD /* main.m */; };
+		F693E19A14FDD0FF004DECBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E19914FDD0FF004DECBD /* AppDelegate.m */; };
+		F693E1B514FDD1CC004DECBD /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1B414FDD1CC004DECBD /* Utils.m */; };
+		F693E1BA14FDD1D4004DECBD /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1B714FDD1D4004DECBD /* NSData+Encryption.m */; };
+		F693E1BB14FDD1D4004DECBD /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1B914FDD1D4004DECBD /* NSString+Encryption.m */; };
+		F693E1C214FDD1DA004DECBD /* BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1BD14FDD1DA004DECBD /* BaseOperation.m */; };
+		F693E1C314FDD1DA004DECBD /* AuthenticateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1BF14FDD1DA004DECBD /* AuthenticateOperation.m */; };
+		F693E1C414FDD1DA004DECBD /* FundsTransferOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1C114FDD1DA004DECBD /* FundsTransferOperation.m */; };
+		F693E1C614FDD1E1004DECBD /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1C514FDD1E1004DECBD /* Model.m */; };
+		F693E1CB14FDD25A004DECBD /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1CA14FDD25A004DECBD /* Account.m */; };
+		F693E1CE14FDD307004DECBD /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1CD14FDD307004DECBD /* AccountsViewController.m */; };
+		F693E1D114FDD329004DECBD /* TransferFundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1D014FDD329004DECBD /* TransferFundsViewController.m */; };
+		F693E1D414FDD33A004DECBD /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F693E1D314FDD33A004DECBD /* DashboardViewController.m */; };
+		F6BDE91814FF43E90089B647 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BDE91714FF43E90089B647 /* NSData+Base64.m */; };
+		F6BDE91C14FF44830089B647 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BDE91B14FF44830089B647 /* NSString+Hashing.m */; };
+		F6F3D720160ABE1100BC286C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D71E160ABE1100BC286C /* icon.png */; };
+		F6F3D721160ABE1100BC286C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D71F160ABE1100BC286C /* icon@2x.png */; };
+		F6F3D728160AC00E00BC286C /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D726160AC00E00BC286C /* default.png */; };
+		F6F3D729160AC00E00BC286C /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D727160AC00E00BC286C /* default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6459ABA1568CE3D009566AB /* CertificateAuthenticateOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateAuthenticateOperation.h; sourceTree = "<group>"; };
+		F6459ABB1568CE3D009566AB /* CertificateAuthenticateOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateAuthenticateOperation.m; sourceTree = "<group>"; };
+		F666F7FA1503E7820070B81F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F666F80015045A190070B81F /* GetAccountsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAccountsOperation.h; sourceTree = "<group>"; };
+		F666F80115045A1A0070B81F /* GetAccountsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAccountsOperation.m; sourceTree = "<group>"; };
+		F66A2597150EF4D40097CEBF /* cert.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.txt; sourceTree = "<group>"; };
+		F68BB54F1563444F007610BC /* NormalLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalLoginViewController.h; sourceTree = "<group>"; };
+		F68BB5501563444F007610BC /* NormalLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalLoginViewController.m; sourceTree = "<group>"; };
+		F68BB55315634468007610BC /* RegisteredLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredLoginViewController.h; sourceTree = "<group>"; };
+		F68BB55415634468007610BC /* RegisteredLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredLoginViewController.m; sourceTree = "<group>"; };
+		F693E18514FDD0FF004DECBD /* Mobile-Banking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Banking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F693E18914FDD0FF004DECBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F693E18B14FDD0FF004DECBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F693E18D14FDD0FF004DECBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F693E19114FDD0FF004DECBD /* Mobile-Banking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile-Banking-Info.plist"; sourceTree = "<group>"; };
+		F693E19314FDD0FF004DECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F693E19514FDD0FF004DECBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F693E19714FDD0FF004DECBD /* Mobile-Banking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobile-Banking-Prefix.pch"; sourceTree = "<group>"; };
+		F693E19814FDD0FF004DECBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F693E19914FDD0FF004DECBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F693E1B314FDD1CC004DECBD /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F693E1B414FDD1CC004DECBD /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		F693E1B614FDD1D4004DECBD /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		F693E1B714FDD1D4004DECBD /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		F693E1B814FDD1D4004DECBD /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		F693E1B914FDD1D4004DECBD /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		F693E1BC14FDD1DA004DECBD /* BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperation.h; sourceTree = "<group>"; };
+		F693E1BD14FDD1DA004DECBD /* BaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseOperation.m; sourceTree = "<group>"; };
+		F693E1BE14FDD1DA004DECBD /* AuthenticateOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticateOperation.h; sourceTree = "<group>"; };
+		F693E1BF14FDD1DA004DECBD /* AuthenticateOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticateOperation.m; sourceTree = "<group>"; };
+		F693E1C014FDD1DA004DECBD /* FundsTransferOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FundsTransferOperation.h; sourceTree = "<group>"; };
+		F693E1C114FDD1DA004DECBD /* FundsTransferOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FundsTransferOperation.m; sourceTree = "<group>"; };
+		F693E1C514FDD1E1004DECBD /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F693E1C714FDD1E6004DECBD /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F693E1C814FDD1E6004DECBD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F693E1C914FDD25A004DECBD /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		F693E1CA14FDD25A004DECBD /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		F693E1CC14FDD307004DECBD /* AccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsViewController.h; sourceTree = "<group>"; };
+		F693E1CD14FDD307004DECBD /* AccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsViewController.m; sourceTree = "<group>"; };
+		F693E1CF14FDD329004DECBD /* TransferFundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferFundsViewController.h; sourceTree = "<group>"; };
+		F693E1D014FDD329004DECBD /* TransferFundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferFundsViewController.m; sourceTree = "<group>"; };
+		F693E1D214FDD33A004DECBD /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		F693E1D314FDD33A004DECBD /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		F6BDE91614FF43E90089B647 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F6BDE91714FF43E90089B647 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F6BDE91A14FF44820089B647 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		F6BDE91B14FF44830089B647 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		F6F3D71E160ABE1100BC286C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F6F3D71F160ABE1100BC286C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F6F3D726160AC00E00BC286C /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		F6F3D727160AC00E00BC286C /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F693E18214FDD0FF004DECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F666F7FB1503E7820070B81F /* Security.framework in Frameworks */,
+				F693E18A14FDD0FF004DECBD /* UIKit.framework in Frameworks */,
+				F693E18C14FDD0FF004DECBD /* Foundation.framework in Frameworks */,
+				F693E18E14FDD0FF004DECBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F693E17A14FDD0FE004DECBD = {
+			isa = PBXGroup;
+			children = (
+				F693E18F14FDD0FF004DECBD /* Mobile-Banking */,
+				F693E18814FDD0FF004DECBD /* Frameworks */,
+				F693E18614FDD0FF004DECBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F693E18614FDD0FF004DECBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F693E18514FDD0FF004DECBD /* Mobile-Banking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F693E18814FDD0FF004DECBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F666F7FA1503E7820070B81F /* Security.framework */,
+				F693E18914FDD0FF004DECBD /* UIKit.framework */,
+				F693E18B14FDD0FF004DECBD /* Foundation.framework */,
+				F693E18D14FDD0FF004DECBD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F693E18F14FDD0FF004DECBD /* Mobile-Banking */ = {
+			isa = PBXGroup;
+			children = (
+				F693E19814FDD0FF004DECBD /* AppDelegate.h */,
+				F693E19914FDD0FF004DECBD /* AppDelegate.m */,
+				F693E1AC14FDD157004DECBD /* UI */,
+				F693E1AD14FDD15F004DECBD /* Model */,
+				F693E19014FDD0FF004DECBD /* Supporting Files */,
+			);
+			path = "Mobile-Banking";
+			sourceTree = "<group>";
+		};
+		F693E19014FDD0FF004DECBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F3D71C160ABC4B00BC286C /* Images */,
+				F693E19114FDD0FF004DECBD /* Mobile-Banking-Info.plist */,
+				F693E19214FDD0FF004DECBD /* InfoPlist.strings */,
+				F693E19514FDD0FF004DECBD /* main.m */,
+				F693E19714FDD0FF004DECBD /* Mobile-Banking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F693E1AC14FDD157004DECBD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F693E1D214FDD33A004DECBD /* DashboardViewController.h */,
+				F693E1D314FDD33A004DECBD /* DashboardViewController.m */,
+				F68BB54F1563444F007610BC /* NormalLoginViewController.h */,
+				F68BB5501563444F007610BC /* NormalLoginViewController.m */,
+				F68BB55315634468007610BC /* RegisteredLoginViewController.h */,
+				F68BB55415634468007610BC /* RegisteredLoginViewController.m */,
+				F693E1CC14FDD307004DECBD /* AccountsViewController.h */,
+				F693E1CD14FDD307004DECBD /* AccountsViewController.m */,
+				F693E1CF14FDD329004DECBD /* TransferFundsViewController.h */,
+				F693E1D014FDD329004DECBD /* TransferFundsViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F693E1AD14FDD15F004DECBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F66A2597150EF4D40097CEBF /* cert.txt */,
+				F693E1AE14FDD17C004DECBD /* Public */,
+				F693E1AF14FDD186004DECBD /* Classes */,
+				F693E1B014FDD195004DECBD /* Operations */,
+				F693E1B114FDD1A6004DECBD /* Categories */,
+				F693E1B214FDD1B1004DECBD /* Utils */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F693E1AE14FDD17C004DECBD /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F693E1C714FDD1E6004DECBD /* Model.h */,
+				F693E1C814FDD1E6004DECBD /* Constants.h */,
+				F693E1C914FDD25A004DECBD /* Account.h */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		F693E1AF14FDD186004DECBD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F693E1C514FDD1E1004DECBD /* Model.m */,
+				F693E1CA14FDD25A004DECBD /* Account.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F693E1B014FDD195004DECBD /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				F693E1BC14FDD1DA004DECBD /* BaseOperation.h */,
+				F693E1BD14FDD1DA004DECBD /* BaseOperation.m */,
+				F693E1BE14FDD1DA004DECBD /* AuthenticateOperation.h */,
+				F693E1BF14FDD1DA004DECBD /* AuthenticateOperation.m */,
+				F6459ABA1568CE3D009566AB /* CertificateAuthenticateOperation.h */,
+				F6459ABB1568CE3D009566AB /* CertificateAuthenticateOperation.m */,
+				F693E1C014FDD1DA004DECBD /* FundsTransferOperation.h */,
+				F693E1C114FDD1DA004DECBD /* FundsTransferOperation.m */,
+				F666F80015045A190070B81F /* GetAccountsOperation.h */,
+				F666F80115045A1A0070B81F /* GetAccountsOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		F693E1B114FDD1A6004DECBD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F6BDE91614FF43E90089B647 /* NSData+Base64.h */,
+				F6BDE91714FF43E90089B647 /* NSData+Base64.m */,
+				F693E1B614FDD1D4004DECBD /* NSData+Encryption.h */,
+				F693E1B714FDD1D4004DECBD /* NSData+Encryption.m */,
+				F693E1B814FDD1D4004DECBD /* NSString+Encryption.h */,
+				F693E1B914FDD1D4004DECBD /* NSString+Encryption.m */,
+				F6BDE91A14FF44820089B647 /* NSString+Hashing.h */,
+				F6BDE91B14FF44830089B647 /* NSString+Hashing.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F693E1B214FDD1B1004DECBD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F693E1B314FDD1CC004DECBD /* Utils.h */,
+				F693E1B414FDD1CC004DECBD /* Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F6F3D71C160ABC4B00BC286C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F6F3D71E160ABE1100BC286C /* icon.png */,
+				F6F3D71F160ABE1100BC286C /* icon@2x.png */,
+				F6F3D726160AC00E00BC286C /* default.png */,
+				F6F3D727160AC00E00BC286C /* default@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F693E18414FDD0FF004DECBD /* Mobile-Banking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F693E1A914FDD0FF004DECBD /* Build configuration list for PBXNativeTarget "Mobile-Banking" */;
+			buildPhases = (
+				F693E18114FDD0FF004DECBD /* Sources */,
+				F693E18214FDD0FF004DECBD /* Frameworks */,
+				F693E18314FDD0FF004DECBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile-Banking";
+			productName = "Mobile-Banking";
+			productReference = F693E18514FDD0FF004DECBD /* Mobile-Banking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F693E17C14FDD0FE004DECBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F693E17F14FDD0FE004DECBD /* Build configuration list for PBXProject "Mobile-Banking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F693E17A14FDD0FE004DECBD;
+			productRefGroup = F693E18614FDD0FF004DECBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F693E18414FDD0FF004DECBD /* Mobile-Banking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F693E18314FDD0FF004DECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F693E19414FDD0FF004DECBD /* InfoPlist.strings in Resources */,
+				F66A2598150EF4D40097CEBF /* cert.txt in Resources */,
+				F6F3D720160ABE1100BC286C /* icon.png in Resources */,
+				F6F3D721160ABE1100BC286C /* icon@2x.png in Resources */,
+				F6F3D728160AC00E00BC286C /* default.png in Resources */,
+				F6F3D729160AC00E00BC286C /* default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F693E18114FDD0FF004DECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F693E19614FDD0FF004DECBD /* main.m in Sources */,
+				F693E19A14FDD0FF004DECBD /* AppDelegate.m in Sources */,
+				F693E1B514FDD1CC004DECBD /* Utils.m in Sources */,
+				F693E1BA14FDD1D4004DECBD /* NSData+Encryption.m in Sources */,
+				F693E1BB14FDD1D4004DECBD /* NSString+Encryption.m in Sources */,
+				F693E1C214FDD1DA004DECBD /* BaseOperation.m in Sources */,
+				F693E1C314FDD1DA004DECBD /* AuthenticateOperation.m in Sources */,
+				F693E1C414FDD1DA004DECBD /* FundsTransferOperation.m in Sources */,
+				F693E1C614FDD1E1004DECBD /* Model.m in Sources */,
+				F693E1CB14FDD25A004DECBD /* Account.m in Sources */,
+				F693E1CE14FDD307004DECBD /* AccountsViewController.m in Sources */,
+				F693E1D114FDD329004DECBD /* TransferFundsViewController.m in Sources */,
+				F693E1D414FDD33A004DECBD /* DashboardViewController.m in Sources */,
+				F6BDE91814FF43E90089B647 /* NSData+Base64.m in Sources */,
+				F6BDE91C14FF44830089B647 /* NSString+Hashing.m in Sources */,
+				F666F80215045A1A0070B81F /* GetAccountsOperation.m in Sources */,
+				F68BB5511563444F007610BC /* NormalLoginViewController.m in Sources */,
+				F68BB55515634469007610BC /* RegisteredLoginViewController.m in Sources */,
+				F6459ABC1568CE3D009566AB /* CertificateAuthenticateOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F693E19214FDD0FF004DECBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F693E19314FDD0FF004DECBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F693E1A714FDD0FF004DECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F693E1A814FDD0FF004DECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F693E1AA14FDD0FF004DECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile-Banking/Mobile-Banking-Prefix.pch";
+				INFOPLIST_FILE = "Mobile-Banking/Mobile-Banking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F693E1AB14FDD0FF004DECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile-Banking/Mobile-Banking-Prefix.pch";
+				INFOPLIST_FILE = "Mobile-Banking/Mobile-Banking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F693E17F14FDD0FE004DECBD /* Build configuration list for PBXProject "Mobile-Banking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F693E1A714FDD0FF004DECBD /* Debug */,
+				F693E1A814FDD0FF004DECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F693E1A914FDD0FF004DECBD /* Build configuration list for PBXNativeTarget "Mobile-Banking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F693E1AA14FDD0FF004DECBD /* Debug */,
+				F693E1AB14FDD0FF004DECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F693E17C14FDD0FE004DECBD /* Project object */;
+}
